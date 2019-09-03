@@ -8,7 +8,9 @@ jobs:
       - setup_remote_docker
       - run: mv ~/project ~/$CIRCLE_PROJECT_REPONAME
       - run: echo "cd ~/$CIRCLE_PROJECT_REPONAME" >> $BASH_ENV
-      - run: molecule test
+      - run:
+          command: molecule test
+          no_output_timeout: 30m
 
   release:
     docker:
