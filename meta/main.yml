@@ -3,6 +3,7 @@ dependencies:
   - role: ansible-role-toolchain
     toolchain_url: "{{ mongo_toolchain_url }}"
     toolchain_dest: "{{ mongo_toolchain_dest }}"
+    toolchain_list_files: true
 galaxy_info:
   author: MongoDB
   description: Installs the mongo toolchain
