@@ -1,4 +1,10 @@
 ---
+- name: Rename mongodbtoolchain directory
+  command: mv {{ mongo_toolchain_dest }}/{{ toolchain_top_level_directory }} {{ mongo_toolchain_dest }}/mongodbtoolchain
+  args:
+    creates: "{{ mongo_toolchain_dest }}/mongodbtoolchain"
+  when: toolchain_top_level_directory is defined
+
 - include_tasks: setup-Debian.yml
   when: ansible_os_family == "Debian"
 
