@@ -3,6 +3,7 @@ distro_name: "{{ ansible_distribution }}{{ ansible_distribution_major_version }}
 distro_dict:
   Debian10: debian10
   Debian9: debian92
+  MacOSX10: osx
 distro: "{{ distro_dict[distro_name] }}"
 architecture_dict:
   x86_64: amd64
