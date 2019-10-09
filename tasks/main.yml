@@ -1,5 +1,6 @@
 ---
 - name: Rename mongodbtoolchain directory
+  become: true
   command: mv {{ mongo_toolchain_dest }}/{{ toolchain_top_level_directory }} {{ mongo_toolchain_dest }}/mongodbtoolchain
   args:
     creates: "{{ mongo_toolchain_dest }}/mongodbtoolchain"
