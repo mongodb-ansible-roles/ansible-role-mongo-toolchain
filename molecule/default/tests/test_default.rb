@@ -14,3 +14,8 @@ describe file('/opt/mongodbtoolchain/v3') do
   its('type') { should eq :directory }
   it { should be_directory }
 end
+
+describe file('/opt/mongodbtoolchain/v3/bin') do
+  its('type') { should eq :directory }
+  it { should be_directory }
+end
