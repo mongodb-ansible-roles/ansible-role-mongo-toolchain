@@ -8,8 +8,6 @@ lint:
 platforms:
   - name: debian9
     image: debian:9
-  - name: debian10
-    image: debian:10
 provisioner:
   name: ansible
   lint:
