@@ -5,4 +5,4 @@
   roles:
     - role: ansible-role-mongo-toolchain
       vars:
-        mongo_toolchain_sha: 1440f2ce9521f9756565ce4a9a45ee382414a80e
+        mongo_toolchain_sha: 57df61bfe08e9c2805a38d201c5cd6c0ea414778
