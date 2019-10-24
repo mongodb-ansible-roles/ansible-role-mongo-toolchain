@@ -5,4 +5,4 @@
   roles:
     - role: ansible-role-mongo-toolchain
       vars:
-        mongo_toolchain_sha: 57df61bfe08e9c2805a38d201c5cd6c0ea414778
+        mongo_toolchain_url: https://ansible-molecule-test.s3.amazonaws.com/test_mongodbtoolchain.tar.gz
