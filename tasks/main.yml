@@ -12,6 +12,12 @@
     creates: "{{ mongo_toolchain_revisions_directory }}/{{ toolchain_top_level_directory }}"
   when: toolchain_top_level_directory is defined
 
+- name: Run mongodb toolchain install script
+  command: "{{ mongo_toolchain_revisions_directory }}/{{ toolchain_top_level_directory }}scripts/install.sh"
+  args:
+    creates: "{{ mongo_toolchain_dest }}/v3"
+  when: toolchain_top_level_directory is defined
+
 - include_tasks: setup-Debian.yml
   when: ansible_os_family == "Debian"
 
