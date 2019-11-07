@@ -1,5 +1,5 @@
 ---
-mongo_toolchain_dest: /opt
+mongo_toolchain_final_dest: /opt/mongodbtoolchain
 mongo_toolchain_sha: ""
 mongo_toolchain_url: https://s3.amazonaws.com/boxes.10gen.com/build/toolchain/mongodbtoolchain-{{ distro }}-{{ mongo_toolchain_sha }}.tar.gz
 mongo_toolchain_revisions_directory: /opt/mongodbtoolchain/revisions
