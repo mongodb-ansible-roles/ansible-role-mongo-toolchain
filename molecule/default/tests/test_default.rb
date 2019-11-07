@@ -2,6 +2,11 @@
 
 # rubocop:disable LineLength
 
+describe file('/opt/mongodbtoolchain/toolchain_version') do
+  it { should exist }
+  its('content') { should match(/testing_mongo_sha/) }
+end
+
 describe file('/opt/mongodbtoolchain/revisions/test_mongodbtoolchain/v3/bin') do
   its('type') { should eq :directory }
   it { should be_directory }
