@@ -20,3 +20,9 @@
     creates: "{{ mongo_toolchain_final_dest }}/v3"
   when:
     - toolchain_archive_contents.changed
+
+- name: Create version file {{ mongo_toolchain_sha }}
+  become: true
+  copy:
+    content: "{{ mongo_toolchain_sha }}"
+    dest: "{{ mongo_toolchain_final_dest }}/toolchain_version"
