@@ -43,7 +43,7 @@ Role Variables
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-------:|:--------:|
-| `mongo_toolchain_sha` | SHA of the golang toolchain you want to download | string | "" | yes |
+| `mongo_toolchain_sha` | SHA of the mongo toolchain you want to download | string | "" | yes |
 | `mongo_toolchain_final_dest` | Location of the mongo toolchain | string | "/opt" | no |
 | `mongo_toolchain_url` | Optional URL you can specify to download the mongo toolchain directly from | string | "" | no |
 
