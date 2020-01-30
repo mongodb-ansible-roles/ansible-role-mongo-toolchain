@@ -21,6 +21,13 @@ galaxy_info:
     - name: EL
       versions:
         - 8
+        - 7
+        - 6
+    - name: Ubuntu
+      versions:
+        - xenial
+        - bionic
+        - focal
   galaxy_tags:
     - toolchain
     - mongo
