@@ -3,7 +3,8 @@ Ansible role for mongo-toolchain
 
 Installs the mongo toolchain
 
-[![CircleCI](https://img.shields.io/circleci/build/github/mongodb-ansible-roles/ansible-role-mongo-toolchain/master?style=flat-square)](https://circleci.com/gh/mongodb-ansible-roles/ansible-role-mongo-toolchain)
+[![GitHub Actions](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/workflows/Molecule%20Test/badge.svg)](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/actions?query=workflow%3A%22Molecule+Test%22)
+[![GitHub Actions](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/workflows/Release/badge.svg)](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/actions?query=workflow%3A%22Molecule+Test%22)
 
 Explanation
 -----------
