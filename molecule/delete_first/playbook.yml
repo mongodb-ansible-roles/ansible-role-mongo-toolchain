@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  roles:
+    - role: ansible-role-mongo-toolchain
+      vars:
+        mongo_toolchain_url: https://ansible-molecule-test.s3.amazonaws.com/test_mongodbtoolchain.tar.gz
+        mongo_toolchain_sha: testing_mongo_sha
+        mongo_toolchain_delete_old_final_dest: true
