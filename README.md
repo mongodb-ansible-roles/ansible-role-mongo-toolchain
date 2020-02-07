@@ -47,6 +47,7 @@ Role Variables
 | `mongo_toolchain_sha` | SHA of the mongo toolchain you want to download | string | "" | yes |
 | `mongo_toolchain_final_dest` | Location of the mongo toolchain | string | "/opt" | no |
 | `mongo_toolchain_url` | Optional URL you can specify to download the mongo toolchain directly from | string | "" | no |
+| `mongo_toolchain_delete_old_final_dest` | Specify whether to delete the old toolchain first before downloading the new one. This can be used to install a new toolchain on a host that has space restrictions. Do not use this on static hosts as it could leave the host without the old and new toolchain installed | boolean | false | no |
 
 Dependencies
 ------------
