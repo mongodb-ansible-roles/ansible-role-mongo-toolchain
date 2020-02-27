@@ -7,3 +7,4 @@
       command: subscription-manager unregister
       ignore_unreachable: true
       ignore_errors: true
+      changed_when: false
