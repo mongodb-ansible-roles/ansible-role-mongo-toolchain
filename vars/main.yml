@@ -5,5 +5,6 @@ distro_dict:
   Debian9: debian92
   MacOSX10: osx
   RedHat8: rhel80
+  RedHat7: rhel70
   RedHat6: rhel62
 distro: "{{ distro_dict[distro_name] }}"
