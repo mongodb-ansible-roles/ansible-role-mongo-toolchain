@@ -26,3 +26,12 @@
   copy:
     content: "{{ mongo_toolchain_sha }}"
     dest: "{{ mongo_toolchain_final_dest }}/toolchain_version"
+
+- name: Fix toolchain permissions | Make /opt/mongodbtoolchain write-able by evergreen user
+  file:
+    state: directory
+    recurse: true
+    # Make it so no one can destroy or modify the toolchain by accident
+    mode: 0755
+    path: /opt/mongodbtoolchain
+    owner: "{{ evergreen_user }}"
