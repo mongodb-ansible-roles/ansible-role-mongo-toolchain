@@ -34,4 +34,4 @@
     # Make it so no one can destroy or modify the toolchain by accident
     mode: 0755
     path: /opt/mongodbtoolchain
-    owner: "{{ evergreen_user }}"
+    owner: "{{ mongo_toolchain_evergreen_user }}"

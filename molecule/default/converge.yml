@@ -7,4 +7,4 @@
       vars:
         mongo_toolchain_url: https://ansible-molecule-test.s3.amazonaws.com/test_mongodbtoolchain.tar.gz
         mongo_toolchain_sha: testing_mongo_sha
-        evergreen_user: root
+        mongo_toolchain_evergreen_user: root
