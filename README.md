@@ -53,7 +53,7 @@ Role Variables
 Dependencies
 ------------
 
-Depends on the ansible-role-toolchain role to download the archive
+Depends on the [mongodb-ansible-roles.ansible-role-toolchain](https://github.com/mongodb-ansible-roles/ansible-role-toolchain) role to download the archive
 
 Example Playbook
 ----------------

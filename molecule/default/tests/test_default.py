@@ -33,3 +33,6 @@ def test_python(host):
     assert cmd.stdout == """Python 3.7.0
 """
     assert cmd.succeeded
+
+def test_owner(host):
+    assert "root" == host.file("/opt/mongodbtoolchain").user
