@@ -34,5 +34,6 @@ def test_python(host):
 """
     assert cmd.succeeded
 
+
 def test_owner(host):
     assert "root" == host.file("/opt/mongodbtoolchain").user
