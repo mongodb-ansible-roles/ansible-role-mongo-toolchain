@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.6.0...v1.7.0) (2020-03-19)
+
+
+### Features
+
+* **BUILD-10616:** add ability to set evergreen user ([#15](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/issues/15)) ([80a4e1a](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/commit/80a4e1ab781c929612a31c520fb12e85fa7b66e2))
+
 # [1.6.0](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.5.0...v1.6.0) (2020-02-27)
 
 
