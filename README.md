@@ -48,11 +48,12 @@ Role Variables
 | `mongo_toolchain_final_dest` | Location of the mongo toolchain | string | "/opt" | no |
 | `mongo_toolchain_url` | Optional URL you can specify to download the mongo toolchain directly from | string | "" | no |
 | `mongo_toolchain_delete_old_final_dest` | Specify whether to delete the old toolchain first before downloading the new one. This can be used to install a new toolchain on a host that has space restrictions. Do not use this on static hosts as it could leave the host without the old and new toolchain installed | boolean | false | no |
+| `mongo_toolchain_evergreen_user` | User that will own the toolchain folder | string | "root" | no |
 
 Dependencies
 ------------
 
-None
+Depends on the [mongodb-ansible-roles.ansible-role-toolchain](https://github.com/mongodb-ansible-roles/ansible-role-toolchain) role to download the archive
 
 Example Playbook
 ----------------
