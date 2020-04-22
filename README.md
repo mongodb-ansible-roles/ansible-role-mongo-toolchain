@@ -49,6 +49,7 @@ Role Variables
 | `mongo_toolchain_url` | Optional URL you can specify to download the mongo toolchain directly from | string | "" | no |
 | `mongo_toolchain_delete_old_final_dest` | Specify whether to delete the old toolchain first before downloading the new one. This can be used to install a new toolchain on a host that has space restrictions. Do not use this on static hosts as it could leave the host without the old and new toolchain installed | boolean | false | no |
 | `mongo_toolchain_evergreen_user` | User that will own the toolchain folder | string | "root" | no |
+| `mongo_toolchain_distro_name` | If you need to override a distro name (ie. 'rhel81' instead of 'rhel8') | string | "" | no |
 
 Dependencies
 ------------
