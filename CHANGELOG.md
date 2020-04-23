@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.7.0...v1.8.0) (2020-04-23)
+
+
+### Features
+
+* Add multi arch and ubuntu support ([0318420](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/commit/0318420c3d33a0a9b00de98fccfe32f90eeee234))
+
 # [1.7.0](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.6.0...v1.7.0) (2020-03-19)
 
 
