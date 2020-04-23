@@ -17,8 +17,6 @@ platforms:
     image: registry.redhat.io/ubi8
   - name: rhel7
     image: registry.redhat.io/ubi7
-  - name: rhel6
-    image: registry.redhat.io/rhel6
   - name: ubuntu1604
     image: ubuntu:16.04
   - name: ubuntu1804

@@ -1,5 +1,6 @@
 ---
 distro_name: "{{ ansible_distribution }}{{ ansible_distribution_major_version }}"
+distro_arch_name: "{{ ansible_architecture }}"
 distro_dict:
   Debian10: debian10
   Debian9: debian92
@@ -7,4 +8,12 @@ distro_dict:
   RedHat8: rhel80
   RedHat7: rhel70
   RedHat6: rhel62
+  Ubuntu20: ubuntu2004
+  Ubuntu18: ubuntu1804
+  Ubuntu16: ubuntu1604
+distro_arch_dict:
+  ppc64le: ppc64le
+  s390x: zseries
+  aarch64: arm64
 distro: "{{ distro_dict[distro_name] }}"
+distro_arch: "{{ distro_arch_dict[distro_arch_name] }}"
