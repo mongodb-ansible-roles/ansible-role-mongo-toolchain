@@ -1,0 +1,8 @@
+---
+- hosts: amazon
+  gather_facts: false
+  tasks:
+    - name: Install tar
+      yum:
+        name: tar
+        state: present
