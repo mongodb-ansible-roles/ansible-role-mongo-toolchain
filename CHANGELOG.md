@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.8.0...v1.9.0) (2020-05-12)
+
+
+### Features
+
+* Add Amazon Linux support ([5fccfb0](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/commit/5fccfb08d20d8e48c2c9c13a3c9b386d6eeb2007))
+
 # [1.8.0](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.7.0...v1.8.0) (2020-04-23)
 
 
