@@ -1,7 +1,7 @@
 ---
 mongo_toolchain_final_dest: /opt/mongodbtoolchain
 mongo_toolchain_sha: ""
-mongo_toolchain_url: "https://s3.amazonaws.com/boxes.10gen.com/build/toolchain/mongodbtoolchain-{% if mongo_toolchain_distro_name is defined %}{{ mongo_toolchain_distro_name }}-{% else %}{{ distro }}-{% endif %}{% if ansible_architecture != 'x86_64' %}{{ ansible_architecture }}-{% endif %}{{ mongo_toolchain_sha }}.tar.gz"
+mongo_toolchain_url: "https://s3.amazonaws.com/boxes.10gen.com/build/toolchain/mongodbtoolchain-{% if mongo_toolchain_distro_name is defined %}{{ mongo_toolchain_distro_name }}-{% else %}{{ distro }}-{% endif %}{% if ansible_architecture != 'x86_64' %}{{ distro_arch }}-{% endif %}{{ mongo_toolchain_sha }}.tar.gz"
 mongo_toolchain_revisions_directory: /opt/mongodbtoolchain/revisions
 mongo_toolchain_delete_old_final_dest: false
 mongo_toolchain_evergreen_user: root
