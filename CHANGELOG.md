@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.9.0...v1.10.0) (2020-05-29)
+
+
+### Features
+
+* add multiarch platforms ([#19](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/issues/19)) ([b491e55](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/commit/b491e55e691da7e45c58fdfc7f564278e3eb458b))
+
 # [1.9.0](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.8.0...v1.9.0) (2020-05-12)
 
 
