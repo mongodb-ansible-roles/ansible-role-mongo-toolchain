@@ -17,4 +17,3 @@ distro_arch_dict:
   s390x: zseries
   aarch64: arm64
 distro: "{{ distro_dict[distro_name] }}"
-distro_arch: "{{ distro_arch_dict[distro_arch_name] }}"
