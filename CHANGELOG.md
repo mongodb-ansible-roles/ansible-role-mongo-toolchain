@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.10.0...v1.10.1) (2020-06-01)
+
+
+### Bug Fixes
+
+* remove distro_arch variable ([#20](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/issues/20)) ([3bb34b9](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/commit/3bb34b9e9388d8f1232be7969cb431e45fcb4431))
+
 # [1.10.0](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.9.0...v1.10.0) (2020-05-29)
 
 
