@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.10.1...v1.10.2) (2020-07-14)
+
+
+### Bug Fixes
+
+* Add become to user permission task ([31dd2ab](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/commit/31dd2abddfd9978252f2c51ea7a72195ddb27799))
+
 ## [1.10.1](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.10.0...v1.10.1) (2020-06-01)
 
 
