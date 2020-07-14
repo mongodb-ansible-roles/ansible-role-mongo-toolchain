@@ -28,6 +28,7 @@
     dest: "{{ mongo_toolchain_final_dest }}/toolchain_version"
 
 - name: Fix toolchain permissions | Make /opt/mongodbtoolchain write-able by evergreen user
+  become: true
   file:
     state: directory
     recurse: true
