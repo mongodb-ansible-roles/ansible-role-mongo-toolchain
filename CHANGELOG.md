@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.10.2...v1.10.3) (2020-11-13)
+
+
+### Bug Fixes
+
+* Add SLES12 to distro dict ([86d2a34](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/commit/86d2a34e896a44f96a6da2ceff04ad168b79a304))
+
 ## [1.10.2](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.10.1...v1.10.2) (2020-07-14)
 
 
