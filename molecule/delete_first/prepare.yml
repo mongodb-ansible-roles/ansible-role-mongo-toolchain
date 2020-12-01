@@ -8,8 +8,10 @@
       file:
         path: /tmp/efs
         state: directory
+        mode: 0755
 
     - name: Create temp file in efs directory
       file:
         path: /tmp/efs/test
         state: touch
+        mode: 0755

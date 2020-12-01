@@ -4,6 +4,7 @@
   file:
     path: "{{ mongo_toolchain_revisions_directory }}"
     state: directory
+    mode: 0755
 
 - name: Rename mongodbtoolchain directory
   become: true
