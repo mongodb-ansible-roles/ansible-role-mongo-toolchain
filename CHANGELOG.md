@@ -1,3 +1,11 @@
+## [1.10.4](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.10.3...v1.10.4) (2020-12-02)
+
+
+### Bug Fixes
+
+* Fix linting issues ([47e1722](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/commit/47e1722680527f525e28246cfe73c4e870d44525))
+* Fix requirements ([e97794f](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/commit/e97794f74e5953ff23f4bbc1c640e16569029bdb))
+
 ## [1.10.3](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.10.2...v1.10.3) (2020-11-13)
 
 
