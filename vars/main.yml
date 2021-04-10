@@ -18,4 +18,5 @@ distro_arch_dict:
   ppc64le: ppc64le
   s390x: zseries
   aarch64: arm64
+  arm64: arm64
 distro: "{{ distro_dict[distro_name] }}"
