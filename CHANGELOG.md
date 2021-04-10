@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.10.4...v1.11.0) (2021-04-10)
+
+
+### Features
+
+* Add arm64 support ([3f4bd18](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/commit/3f4bd18a0ed0bfd3e85e6a8f8e62d404c181de11))
+
 ## [1.10.4](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.10.3...v1.10.4) (2020-12-02)
 
 
