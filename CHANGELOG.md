@@ -1,3 +1,11 @@
+## [1.11.1](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.11.0...v1.11.1) (2021-04-29)
+
+
+### Bug Fixes
+
+* Disable list files in ansible-role-toolchain ([c3ee021](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/commit/c3ee021735ee1fc884b8ab86123bfc3e9ade757b))
+* Specify mode for version file ([03f3e35](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/commit/03f3e351b4651974a9f77df1201942674bc58915))
+
 # [1.11.0](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.10.4...v1.11.0) (2021-04-10)
 
 
