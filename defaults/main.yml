@@ -5,3 +5,4 @@ mongo_toolchain_url: "https://s3.amazonaws.com/boxes.10gen.com/build/toolchain/m
 mongo_toolchain_revisions_directory: /opt/mongodbtoolchain/revisions
 mongo_toolchain_delete_old_final_dest: false
 mongo_toolchain_evergreen_user: root
+mongo_toolchain_list_files: false
