@@ -26,12 +26,10 @@ def test_v3(host):
 
 def test_python(host):
     cmd = host.run("/opt/mongodbtoolchain/revisions/test_mongodbtoolchain/v3/bin/python3.7 --version")
-    assert cmd.stdout == """Python 3.7.0
-"""
+    assert cmd.stdout == """Python 3.7.0"""
     assert cmd.succeeded
     cmd = host.run("/opt/mongodbtoolchain/v3/bin/python3.7 --version")
-    assert cmd.stdout == """Python 3.7.0
-"""
+    assert cmd.stdout == """Python 3.7.0"""
     assert cmd.succeeded
 
 
