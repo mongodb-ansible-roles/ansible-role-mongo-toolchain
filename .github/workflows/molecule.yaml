@@ -33,5 +33,4 @@ jobs:
           REDHAT_REGISTRY_SERVICE_ACCOUNT_PASSWORD: ${{ secrets.REDHAT_REGISTRY_SERVICE_ACCOUNT_PASSWORD }}
 name: Molecule Test
 "on":
-  - push
   - pull_request
