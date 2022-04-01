@@ -8,3 +8,4 @@
         mongo_toolchain_sha: testing_mongo_sha
         mongo_toolchain_delete_old_final_dest: true
         mongo_toolchain_evergreen_user: root
+        mongo_toolchain_list_files: true
