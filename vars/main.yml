@@ -5,6 +5,7 @@ distro_dict:
   AmazonNA: amazon
   Amazon2: amazon
   Debian10: debian10
+  Debian11: debian11
   Debian9: debian92
   MacOSX10: osx
   RedHat8: rhel80

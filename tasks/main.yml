@@ -28,6 +28,7 @@
     content: "{{ mongo_toolchain_sha }}"
     dest: "{{ mongo_toolchain_final_dest }}/toolchain_version"
     mode: 0644
+  changed_when: false
 
 - name: Fix toolchain permissions | Make /opt/mongodbtoolchain write-able by evergreen user
   become: true
@@ -38,3 +39,4 @@
     mode: 0755
     path: /opt/mongodbtoolchain
     owner: "{{ mongo_toolchain_evergreen_user }}"
+  changed_when: false

@@ -4,7 +4,7 @@ jobs:
     name: molecule test
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - name: Set up private key
         env:
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
@@ -14,9 +14,9 @@ jobs:
           echo "${{ secrets.PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
       - name: Setup Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v3
         with:
-          python-version: 3.6
+          python-version: 3.9
       - name: Install required dependencies
         run: pip install -r requirements.txt
       - name: Log into RedHat
@@ -33,5 +33,4 @@ jobs:
           REDHAT_REGISTRY_SERVICE_ACCOUNT_PASSWORD: ${{ secrets.REDHAT_REGISTRY_SERVICE_ACCOUNT_PASSWORD }}
 name: Molecule Test
 "on":
-  - push
   - pull_request
