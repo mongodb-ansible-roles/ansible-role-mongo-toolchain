@@ -1,3 +1,10 @@
+## [1.11.2](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.11.1...v1.11.2) (2022-04-01)
+
+
+### Bug Fixes
+
+* fix semantic-release ([c6c1203](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/commit/c6c1203e9850c3ff0887ecb0ae7e79958b8f4a97))
+
 ## [1.11.1](https://github.com/mongodb-ansible-roles/ansible-role-mongo-toolchain/compare/v1.11.0...v1.11.1) (2021-04-29)
 
 
